@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-js",
+    "path": "/blog/",
+    "result": {"data":{"blog":{"posts":[{"fields":{"slug":"/my-first-post/"},"frontmatter":{"date":"2 years ago","title":"Awesome Blog Post Title","author":"Nikola"},"excerpt":"Introduction to my blog post Great content of my first blog","id":"65144d4e-4ab6-5564-90ca-ec4a5668ae87"},{"fields":{"slug":"/second/"},"frontmatter":{"date":"in 3 months","title":"second Blog Post Title","author":"thomas"},"excerpt":"Introduction to my blog post Great content of my first blog","id":"a9243062-e224-58e3-a4d9-f84563eecc0c"}]}},"pageContext":{}},
+    "staticQueryHashes": []}
