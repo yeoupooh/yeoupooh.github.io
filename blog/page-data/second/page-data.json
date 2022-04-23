@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/second/",
-    "result": {"data":{"markdownRemark":{"html":"<h2>Introduction to my blog post</h2>\n<p>Great content of my first blog</p>","frontmatter":{"title":"second Blog Post Title","date":"2022-07-15"}}},"pageContext":{"slug":"/second/"}},
-    "staticQueryHashes": []}
