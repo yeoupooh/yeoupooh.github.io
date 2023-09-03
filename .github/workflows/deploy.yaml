@@ -1,0 +1,21 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main # Change this to your main branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Replace with your Vercel token
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Replace with your Vercel organization ID
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Replace with your Vercel project ID
